@@ -1,0 +1,27 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/background_black_geometricas.jpg?alt=media&token=67bc7404-d6f8-460a-bdeb-4c7ea7ac46b0");
+  background-size: auto;
+  background-position: center;
+  
+  overflow: hidden;
+}
+
+.dashboard {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
+}
