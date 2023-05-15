@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/letra_l_neon.png'
+import LogoReact from '../../assets/images/react_icon_blue.png'
 import LogoS from '../../assets/images/letra_l_neon.png'
 import './index.scss'
 
@@ -63,11 +64,16 @@ const Home = () => {
               strArray={jobArray}
               idx={20}
             />
+            <img
+              src={LogoReact}
+              className='home-react-logo'
+              alt="React Developer Name, Web Developer Name"
+            />
           </h1>
           <h2>Desarrollador Front End / React</h2>
-          <Link to="/contact" className="flat-button">
+          <NavLink to="/contact" className="flat-button">
             CONTÁCTEME
-          </Link>
+          </NavLink>
         </div>
         <div className="logo-container">
           <img
