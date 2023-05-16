@@ -45,7 +45,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-          Actualmente me encuentro en búsqueda de nuevos desafíos profesionales que me permitan seguir creciendo en el área TI especialmente en diseño y desarrollo de aplicaciones web.
+          Actualmente me encuentro en búsqueda de nuevos desafíos profesionales que me permitan seguir creciendo en la industria y sector TI, aportando con mi experiencia y aprender nuevas habilidades, especialmente en diseño y desarrollo de aplicaciones web.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

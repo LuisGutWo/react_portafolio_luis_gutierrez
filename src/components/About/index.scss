@@ -18,11 +18,11 @@
   }
 }
 .about-thumbnail {
-  width: 6rem;
+  width: 8rem;
   height: 100%;
-  border-radius: 50%;
-  border: 2px solid #ffd700;
-  margin-left: 5rem;
+  border-radius: 5%;
+  border: 1px solid #ffd900c5;
+  margin-left: 13rem;
   margin-top: 2rem;
   animation: fadeInAnimation 1s 2s backwards;
 }
@@ -31,11 +31,15 @@
   width: 50%;
   height: 100%;
   top: 0;
-  padding-top: 18%;
+  right: 0;
+  padding-top: 20%;
   margin-left: 0;
   position: absolute;
-  right: 0;
   overflow: hidden;
+
+  // @media (max-width: 1200px) {
+  //   margin-top: 20rem;
+  // }
 }
 
 .cubespinner {

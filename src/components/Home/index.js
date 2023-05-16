@@ -17,7 +17,7 @@ const Home = () => {
     'o',
     'n',
     't',
-    ' ',
+    '-',
     'e',
     'n',
     'd',
@@ -70,7 +70,7 @@ const Home = () => {
               alt="React Developer Name, Web Developer Name"
             />
           </h1>
-          <h2>Desarrollador Front End / React</h2>
+          <h2>Desarrollador Front-End / React</h2>
           <NavLink to="/contact" className="flat-button">
             CONTÁCTEME
           </NavLink>

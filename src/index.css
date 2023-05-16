@@ -8,16 +8,9 @@ body {
   color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/background_black_geometricas.jpg?alt=media&token=67bc7404-d6f8-460a-bdeb-4c7ea7ac46b0");
-  background-size: auto;
-  background-position: center;
-  
-  overflow: hidden;
-}
+  background-color: rgba(13, 3, 54, 0.959);
 
-.dashboard {
-  margin-top: 200px;
-  margin-left: 200px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1200px) {

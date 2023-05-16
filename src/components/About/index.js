@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import { NavLink } from 'react-router-dom'
 import Image from 'react-bootstrap/Image';
 
 import {
@@ -37,7 +36,7 @@ const About = () => {
             <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/luis_portada.jpg?alt=media&token=896dee8f-d49c-4c7f-923d-81df3a0b7ef2" className="about-thumbnail" thumbnail />
           </h1>
           <p>
-            Soy desarrollador Front-end | React, y actualmente me encuentro en búsqueda de nuevos desafíos profesionales que me permitan seguir creciendo en el área TI especialmente en diseño y desarrollo de aplicaciones web. También soy Técnico en Hostelería y Turismo y me he desempeñado en el área gastronómica, principalmente evocado a la administración y supervision de Restaurantes y centros de eventos por mas de 18 años.
+            Soy desarrollador Front-end | React, y actualmente me encuentro en búsqueda de nuevos desafíos profesionales que me permitan seguir creciendo en el sector TI especialmente en diseño y desarrollo de aplicaciones web. También soy Técnico en Hostelería con mención en Turismo, desempeñándome en el área gastronómica, principalmente evocado a la administración y supervision de Restaurantes y centros de eventos por mas de 18 años.
           </p>
           <p align="LEFT">
             Mis grandes responsabilidades siempre se han focalizado en la atención al cliente, supervision del equipo de servicio, dirección y liderazgo, trato con proveedores y solución de problemas relacionados directamente a la experiencia del cliente y calidad de servicio.
@@ -48,7 +47,9 @@ const About = () => {
           <p>
             Muy apasionado por las cosas que valoro en esta vida como mi familia, cocinar y escuchar buena música, tener la satisfacción de tomar nuevos desafíos y aprender habilidades nuevas.
           </p>
-          <NavLink to="/" className="about-button">MI CV</NavLink>
+          <a href="https://www.canva.com/design/DAFgzUcKi5w/J1k21Aj8S8KcBvmIbF1F2Q/view?utm_content=DAFgzUcKi5w&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+            target="_blank"
+            rel="noreferrer" className="about-button">MI CV</a>
         </div>
 
         <div className="stage-cube-cont">
