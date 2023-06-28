@@ -3,7 +3,7 @@ import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 
-const Portfolio = () => { 
+const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {
@@ -19,6 +19,32 @@ const Portfolio = () => {
     return (
         <>
             <div className="container portfolio-page">
+                <div class="background">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <h1 className="page-title">
                     <AnimatedLetters
                         letterClass={letterClass}

@@ -21,7 +21,7 @@ const Contact = () => {
 
     emailjs
       .sendForm("service_a6l6xm9",
-      "template_6jdtamc", form.current, "QVDHpjw6RiU7JDfap")
+        "template_6jdtamc", form.current, "QVDHpjw6RiU7JDfap")
       .then(
         () => {
           alert('se envió el email satisfactoriamente')
@@ -36,6 +36,32 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
+        <div class="background">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <div className="text-zone">
           <h1>
             <AnimatedLetters
@@ -45,7 +71,7 @@ const Contact = () => {
             />
           </h1>
           <p>
-          Actualmente me encuentro en búsqueda de nuevos desafíos profesionales que me permitan seguir creciendo en la industria y sector TI, aportando con mi experiencia y aprender nuevas habilidades, especialmente en diseño y desarrollo de aplicaciones web.
+            Actualmente me encuentro en búsqueda de nuevos desafíos profesionales que me permitan seguir creciendo en la industria y sector TI, aportando con mi experiencia y aprender nuevas habilidades, especialmente en diseño y desarrollo de aplicaciones web.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
