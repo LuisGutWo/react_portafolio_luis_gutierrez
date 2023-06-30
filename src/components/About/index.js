@@ -59,16 +59,15 @@ const About = () => {
               strArray={['A', 'c', 'e', 'r', 'c', 'a', ' ', 'd', 'e', ' ', 'm', 'i']}
               idx={15}
             />
-            <Image src="https://firebasestorage.googleapis.com/v0/b/login-huellitas.appspot.com/o/luis_portada.jpg?alt=media&token=896dee8f-d49c-4c7f-923d-81df3a0b7ef2" className="about-thumbnail" thumbnail />
           </h1>
           <p>
-            Soy desarrollador Front-end | React, y actualmente me encuentro en búsqueda de nuevos desafíos profesionales que me permitan seguir creciendo en el sector TI especialmente en diseño y desarrollo de aplicaciones web. También soy Técnico en Hostelería con mención en Turismo, desempeñándome en el área gastronómica, principalmente evocado a la administración y supervision de Restaurantes y centros de eventos por mas de 18 años.
+            Soy desarrollador Front-end recién egresado. Especializado en React | JavaScript | Html5 | Css | Sass | Git | Bootstrap | Material UI.  Actualmente me encuentro en búsqueda de nuevos desafíos profesionales que me permitan crecer en la industria TI, ya sea en diseño, implementación o desarrollo de aplicaciones web.
           </p>
           <p align="LEFT">
-            Mis grandes responsabilidades siempre se han focalizado en la atención al cliente, supervision del equipo de servicio, dirección y liderazgo, trato con proveedores y solución de problemas relacionados directamente a la experiencia del cliente y calidad de servicio.
+            Como técnico en Hostelería y Turismo, me he dedicado por mas de 18 años al servicio al cliente. Mis habilidades desarrolladas se focalizan en la calidad de servicio y atención al cliente, como también en la supervision, dirección y liderazgo de equipos de trabajo, trato con proveedores y solución de problemas relacionados directamente a la experiencia del cliente que impliquen en la calidad de servicio.
           </p>
           <p>
-            Mi vocación de servicio, la paciencia y meticulosidad para ejercer los cargos de liderazgo han sido características que han marcado mi experiencia laboral. Soy muy apasionado por la resolución de problemas que impliquen la calidad de servicio, buena y amable relaciones interpersonales, dirección y capacitación de colaboradores.
+            Mi vocación de servicio, paciencia y meticulosidad son mis principales características, marcando mi experiencia laboral. Soy un apasionado por la resolución de problemas que impliquen la calidad de servicio. Buenas relaciones interpersonales y trato con clientes.
           </p>
           <p>
             Muy apasionado por las cosas que valoro en esta vida como mi familia, cocinar y escuchar buena música, tener la satisfacción de tomar nuevos desafíos y aprender habilidades nuevas.
